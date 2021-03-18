@@ -9,7 +9,7 @@ int main()
     for(i=0;i<n+1;i++)
     {
 
-        gets(a[i]);
+        scanf("%s",a[i]);
     }
     for(i=0;i<n+1;i++)
     {
