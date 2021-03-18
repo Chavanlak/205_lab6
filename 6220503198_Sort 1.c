@@ -5,7 +5,6 @@
 
 
     int n,i,j;
-    //printf("Enter : ");
     scanf("%d",&n);
     char a[n][1000];
     char temp[1000];
@@ -14,7 +13,7 @@
 
         scanf("%s",a[i]);
     }
-        for(i=0;i<n-1;i++);
+        for(i=0;i<n;i++);
         {
             for(j=i+1;j<n;j++);
             if(strcmp(a[i],a[j])>0);
@@ -25,7 +24,7 @@
             }
 
         }
-            for(i=0;i<n-1;i++);
+            for(i=0;i<n;i++);
             {
                 printf("%s",a[i]);
             }
