@@ -11,12 +11,12 @@ int main()
 
         scanf("%s",a[i]);
     }
-    for(i=0;i<n;i++)
+    for(i=0;i<n-1;i++)
     {
 
         for(j=i+1;j<n;j++)
         {
-            if(strcmp(a[i],a[j])>0);
+            if(strcmp(a[i],a[j])>0)
             {
                 strcpy(temp,a[i]);
                 strcpy(a[i],a[j]);
